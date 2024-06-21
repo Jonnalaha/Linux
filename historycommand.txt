@@ -1,0 +1,306 @@
+    1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  df -h
+   44  sudo apt update
+   45  sudo apt upgrade
+   46  sudo reboot
+   47  man
+   48  is
+   49  ls
+   50  cd
+   51  pwd
+   52  mkdir
+   53  rmdir
+   54  mv
+   55  cp
+   56  cd
+   57  man
+   58  ls -l
+   59  ls -1
+   60  ls -a
+   61  ls -la
+   62  ls -lh
+   63  ls -lS
+   64  ls -ltr
+   65  ls /bin
+   66  mkdir file1.txt
+   67  cd file1
+   68  mkdir file1
+   69  cd file1
+   70  cd ..
+   71  mkdir file1
+   72  mkdir text
+   73  cd file1
+   74  cd ../text
+   75  cd ..
+   76  man
+   77  ls
+   78  cd
+   79  pwd
+   80  rmdir file1.text
+   81  rmdir file1
+   82  ls
+   83  rmdir text
+   84  man
+   85  man man
+   86  mkdir linux
+   87  ls
+   88  cd linux
+   89  cd .
+   90  cd ..
+   91  pwd
+   92  mkdir hello hi
+   93  ls
+   94  rmdir hi
+   95  ls
+   96  mkdir -p linux/program
+   97  ls
+   98  mkdir -p linux programs hi
+   99  ;s
+  100  ls
+  101  rmdir file1
+  102  ls
+  103  ls /bin
+  104  ls 
+  105  rmdir hi
+  106  ls
+  107  rmdir file1.txt
+  108  ls
+  109  touch test
+  110  ls
+  111  mv pear new_pear
+  112  mkdir pear
+  113  mv pear new_pear
+  114  ls
+  115  touch test 
+  116  touch hello
+  117  mv test hello new_pear
+  118  ls
+  119  open new_pear
+  120  open .
+  121  find . -linux
+  122  find . -linux '*.js'
+  123  open .
+  124  find .
+  125  ls
+  126  find . linux
+  127  ls
+  128  ln programs.txt code.txt
+  129* 
+  130  ls -al
+  131  open programs
+  132  open new_pear
+  133  ln new_pear test.txt
+  134  ln -s new_pear test.txt
+  135  ls -al test.txt
+  136  gzip new_pear
+  137  gzip program
+  138  tar -cf archive.tar text
+  139  ls
+  140  tar -cf archive.tar linux
+  141  ls
+  142  alias ll='ls -al'
+  143  ll
+  144  alias
+  145  alias lsthis='ls $pwd'
+  146  alias lscurrent='ls $pwd'
+  147  cat harika
+  148  cat linux
+  149  cat linux hello
+  150  less linux
+  151  history
+  152  history >> historycommand.txt
+    1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  df -h
+   44  sudo apt update
+   45  sudo apt upgrade
+   46  sudo reboot
+   47  man
+   48  is
+   49  ls
+   50  cd
+   51  pwd
+   52  mkdir
+   53  rmdir
+   54  mv
+   55  cp
+   56  cd
+   57  man
+   58  ls -l
+   59  ls -1
+   60  ls -a
+   61  ls -la
+   62  ls -lh
+   63  ls -lS
+   64  ls -ltr
+   65  ls /bin
+   66  mkdir file1.txt
+   67  cd file1
+   68  mkdir file1
+   69  cd file1
+   70  cd ..
+   71  mkdir file1
+   72  mkdir text
+   73  cd file1
+   74  cd ../text
+   75  cd ..
+   76  man
+   77  ls
+   78  cd
+   79  pwd
+   80  rmdir file1.text
+   81  rmdir file1
+   82  ls
+   83  rmdir text
+   84  man
+   85  man man
+   86  mkdir linux
+   87  ls
+   88  cd linux
+   89  cd .
+   90  cd ..
+   91  pwd
+   92  mkdir hello hi
+   93  ls
+   94  rmdir hi
+   95  ls
+   96  mkdir -p linux/program
+   97  ls
+   98  mkdir -p linux programs hi
+   99  ;s
+  100  ls
+  101  rmdir file1
+  102  ls
+  103  ls /bin
+  104  ls 
+  105  rmdir hi
+  106  ls
+  107  rmdir file1.txt
+  108  ls
+  109  touch test
+  110  ls
+  111  mv pear new_pear
+  112  mkdir pear
+  113  mv pear new_pear
+  114  ls
+  115  touch test 
+  116  touch hello
+  117  mv test hello new_pear
+  118  ls
+  119  open new_pear
+  120  open .
+  121  find . -linux
+  122  find . -linux '*.js'
+  123  open .
+  124  find .
+  125  ls
+  126  find . linux
+  127  ls
+  128  ln programs.txt code.txt
+  129* 
+  130  ls -al
+  131  open programs
+  132  open new_pear
+  133  ln new_pear test.txt
+  134  ln -s new_pear test.txt
+  135  ls -al test.txt
+  136  gzip new_pear
+  137  gzip program
+  138  tar -cf archive.tar text
+  139  ls
+  140  tar -cf archive.tar linux
+  141  ls
+  142  alias ll='ls -al'
+  143  ll
+  144  alias
+  145  alias lsthis='ls $pwd'
+  146  alias lscurrent='ls $pwd'
+  147  cat harika
+  148  cat linux
+  149  cat linux hello
+  150  less linux
+  151  history
+  152  history >> historycommand.txt
+  153  ls
+  154  history >> historycommand.txt
